@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeScreen">
+
+    <HorizontalScrollView
+        android:layout_width="359dp"
+        android:layout_height="390dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/stat1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/bar1"
+                    android:layout_width="match_parent"
+                    android:layout_height="330dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/bluebar" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="January"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/stat2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/bar2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="330dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/bluebar" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="February"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/stat3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/bar3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="330dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/bluebar" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="March"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/stat4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/bar4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="330dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/bluebar" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="April"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/stat5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/bar5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="330dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/bluebar" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="May"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/stat6"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/bar6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="330dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/bluebar" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="June"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/stat7"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/bar7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="330dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/bluebar" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="July"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/stat8"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/bar8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="330dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/bluebar" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="August"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/stat9"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/bar9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="330dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/bluebar" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="September"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/stat10"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/bar10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="330dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/bluebar" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Octuber"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/stat11"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/bar11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="330dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/bluebar" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="November"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/stat12"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/bar12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="330dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/bluebar" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="December"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="24sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="246dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="52dp"
+        android:gravity="center"
+        android:text="Current Data"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
